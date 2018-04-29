@@ -1,0 +1,43 @@
+{
+  "name": "react-redux-starter",
+  "version": "1.0.0",
+  "description": "React Redux Starter",
+  "main": "index.js",
+  "scripts": {
+    "compile": "webpack --watch",
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jkang1220/react-redux-starter.git"
+  },
+  "author": "Jimmy Kang",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jkang1220/react-redux-starter/issues"
+  },
+  "homepage": "https://github.com/jkang1220/react-redux-starter#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.3",
+    "knex": "^0.14.6",
+    "pg": "^7.4.1",
+    "react": "^16.3.2",
+    "react-dom": "^16.3.2"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.4",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.24.1",
+    "eslint": "^4.19.1",
+    "eslint-config-airbnb": "^16.1.0",
+    "eslint-plugin-import": "^2.11.0",
+    "eslint-plugin-jsx-a11y": "^6.0.3",
+    "eslint-plugin-react": "^7.7.0",
+    "webpack": "^4.6.0",
+    "webpack-cli": "^2.0.15",
+    "webpack-dev-middleware": "^3.1.3"
+  }
+}
